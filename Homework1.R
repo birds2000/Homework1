@@ -1,6 +1,6 @@
 #1.
 
-#First, we import the data into RStudio.
+#First, we import the data into RStudio. Yay!
 #Because the data in 'bonddata' already has them labeled either 'Carried' or 'Defeated', we run the table function with Result to find both values.
 table(bonddata$Result)
 prop.table(table(bonddata$Result,bonddata$Type),2)
